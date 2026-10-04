@@ -1,6 +1,7 @@
 elpa/
 eln-cache/
 auto-save-list/
+transient/
 ido.last
 smex-items
 .emacs.custom

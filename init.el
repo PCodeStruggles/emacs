@@ -28,7 +28,7 @@
 (scroll-bar-mode 0)
 (global-display-line-numbers-mode 1)
 (setq whitespace-style '(face spaces space-mark))
-(whitespace-mode 1)
+(global-whitespace-mode 1)
 
 ;; BackUp Files
 (setq make-backup-files nil)
