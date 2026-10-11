@@ -29,6 +29,7 @@
 (global-display-line-numbers-mode 1)
 (setq whitespace-style '(face spaces space-mark))
 (global-whitespace-mode 1)
+(setq confirm-kill-emacs #'y-or-n-p)
 
 ;; BackUp Files
 (setq make-backup-files nil)
@@ -97,6 +98,9 @@
 ;; Magit
 (use-package magit
   :bind ("C-x g" . magit-status))
+
+;; Markdown-mode
+(use-package markdown-mode)
 
 ;; Recompile
 (global-set-key (kbd "C-x r") 'recompile)
