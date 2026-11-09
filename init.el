@@ -43,7 +43,7 @@
 ;; Font
 (set-face-attribute 'default nil
                     :family "Iosevka Nerd Font Mono"
-                    :height 200)
+                    :height 250)
 
 ;; Theme
 (use-package gruber-darker-theme
